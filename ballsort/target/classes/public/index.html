@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação por Bolas Coloridas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Classificação por Bolas Coloridas</h1>
+        
+        <div class="game-info">
+            <div class="move-counter">Movimentos: <span id="move-count">0</span></div>
+            <button id="restart-button">Reiniciar Jogo</button>
+        </div>
+        
+        <div id="game-board" class="game-board">
+        </div>
+        
+        <div id="game-message" class="game-message"></div>
+        
+        <div class="instructions">
+            <h2>Instruções</h2>
+            <p>Organize as bolas coloridas de modo que cada tubo contenha apenas bolas de uma única cor.</p>
+            <ul>
+                <li>Clique em um tubo para selecionar uma bola.</li>
+                <li>Clique em outro tubo para mover a bola selecionada.</li>
+                <li>Só é possível mover uma bola para um tubo vazio ou para um tubo cujo topo tenha a mesma cor.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
